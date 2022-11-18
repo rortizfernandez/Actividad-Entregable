@@ -1,6 +1,6 @@
 <div id="app"></div>
 <center>
-<h1>Estudio de orientación de campaña de una marketing </h1>
+<h1>Estudio de orientación de una de campaña marketing </h1>
 </center>
 Autor: Ricardo Ortiz Fernández <br/>
 Url: <a href="https://js-g5nzrk.stackblitz.io">https://js-g5nzrk.stackblitz.io </a> <br>
@@ -9,7 +9,7 @@ Fecha: 12/11/2022
 <center>
 <h2>Introducción:</h2>
 </center>
-Continuando con las línea de las actividades de las asignaturas de Minería de datos y Estadística avanzada, estamos estudiando como orientar una campaña de marketing de una serie que vamos a grabar. En general, se está tratando de hallar el público objetivo de nuestra campaña de marketing, edad, etnia, estilo de la serie (drama, comedia...), etc. Este dataset contiene datos de da unas encuestas que se realizaron a una conjuento de la población, en el que se les puso un capítulo de distintas series (cada persona veia un capitulo de una sola serie) y posteriormente se les realizaban preguntas, tanto de caracter personal como relativas al capítulo que habian visto. Estas preguntas también se pueden hallar en el descargable del enlace, en un bloc de notas.<br>
+Continuando con la línea de las actividades de las asignaturas de Minería de datos y Estadística avanzada, estamos estudiando como orientar una campaña de marketing de una serie que vamos a grabar. En general, se está tratando de hallar el público objetivo de nuestra campaña de marketing, edad, etnia, estilo de la serie (drama, comedia...), etc. Este dataset contiene datos de unas encuestas que se realizaron a una conjuento de la población, en el que se les puso un capítulo de distintas series (cada persona veía un capítulo de una sola serie) y posteriormente se les realizaban preguntas, tanto de carácter personal como relativas al capítulo que habian visto. Estas preguntas también se pueden hallar en el descargable del enlace, en un bloc de notas.<br>
 <br>
 En las otras asignaturas hemos realizado tanto una limpieza de los datos, como una estimación de qué tipo de seríe interesa más en general. Y es aquí donde podemos hacer algún análisis mediante la visualización de los datos y extraer algunas conclusiones.
 <center>
@@ -26,7 +26,7 @@ El objetivo principal, como se ha comentado anteriormente, es dado nuestro datas
 </center>
 
 En nuestro dataset, tenemos variables para los géneros de competiciones, reality, noticias, drama y comedia en la que los encuestados marcaban con 1 o 0 si les gustan estos tipos de géneros. Para ver cuales son los géneros más populares podemos crear una dataset que contenga, por cada variable con un 1, el tipo de género que gusta. De esta manera, podemos generar un gráfico de barras para ver las diferencias entre los géneros. <br/>
-
+<br/>
 <center>
 <img src="https://user-images.githubusercontent.com/84446075/202755658-94bbfaef-5c01-41f3-86c6-72f1c57f2575.png"> <br/>
 Gráfico generado desde Google Colab tras hacer  las <br/>transformaciones a las variables. Realización propia.
@@ -35,27 +35,27 @@ Gráfico generado desde Google Colab tras hacer  las <br/>transformaciones a las
 Podemos observar que tanto los géneros de drama y comedia suelen ser los grupos más extendidos, por lo que uno de estos dos estilos puede que sea al que mejor rentabilidad se le pueda sacar.<br/>
 <br/>
 
-Como en este dataset tenemos un número muy parecido de hombres y mujeres, también se nos puede ocurrir ver si en alguno de estos generos hay una diferencia dispar de manera que orientemos más la campaña hacia este tipo. Observamos que en general no hay grandes diferencias entre los gustros de hombres y mujeres. La comedia y noticias gustan más a los hombres mientras que el drama los realitys y las competiciones más a las mujeres. 
+Como en este dataset tenemos un número muy parecido de hombres y mujeres, también se nos puede ocurrir ver si en alguno de estos géneros hay una diferencia dispar de manera que orientemos más la campaña hacia este tipo.
 
 <br/>
 <center>
   <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZtoFYbkjdp1R3XbEziXkmgSVb-iULm4dQ7hRNG_uKSpMHhj-0FflSRSAMD4jauOWHu__ax6xPY6_0/pubchart?oid=2095275390&amp;format=interactive"></iframe>
   <br/>
-Gráfico generado desde google sheets tras sumar el número de gustos por género.
+Gráfico generado desde google sheets tras sumar el número de gustos por género. Realización propia.
 </center>
-
+Observamos que en general no hay grandes diferencias entre los gustos de hombres y mujeres. La comedia y noticias gustan más a los hombres mientras que el drama los realitys y las competiciones más a las mujeres. 
 <br/>
 
 Además, se nos puede ocurrir observar si hay alguna relación entre el tiempo en segundos que estuvieron viendo la serie antes de la encuesta y la cantidad de horas que ven semanalmente la televisión, en función de la seríe que vieron y la edad que tienen.<br/>
 <center>
  <iframe title="Prueba" width="800" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=9a717104-40ec-4116-8178-435d4117bebb&autoAuth=true&ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00" frameborder="0" allowFullScreen="true"></iframe> 
 <br/>
-Gráfico generado desde power BI.
+Gráfico generado desde power BI. Realización propia.
 </center>
 Enlace al gráfico de Power BI: <a href="https://app.powerbi.com/reportEmbed?reportId=9a717104-40ec-4116-8178-435d4117bebb&autoAuth=true&ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00">https://app.powerbi.com/reportEmbed?reportId=9a717104-40ec-4116-8178-435d4117bebb&autoAuth=true&ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00</a> <br>
 <br/>
 
-Observamos que el tiempo en el que estuvieron viendo el capítulo y el tiempo que ven la televisión a la semana es una relación directamente proporcional. Además vemos que las personas entre los 25 y los 33 años y entre los 44 y los 51, son las que más tiempo pasan en estas dos situaciones. 
+Observamos que el tiempo en el que estuvieron viendo el capítulo y el tiempo que ven la televisión a la semana es una relación directamente proporcional. Además, vemos que las personas entre los 25 y los 33 años y entre los 44 y los 51, son las que más tiempo pasan en estas dos situaciones. 
 
 <center>
   <h2>Conclusiones:</h2>
